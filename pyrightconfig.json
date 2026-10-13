@@ -1,0 +1,23 @@
+{
+  "venvPath": ".",
+  "venv": ".venv",
+  "pythonPath": ".venv\\Scripts\\python.exe",
+  "extraPaths": [
+    "agri_dt_backend",
+    "."
+  ],
+  "executionEnvironments": [
+    {
+      "root": "agri_dt_backend",
+      "extraPaths": [
+        "."
+      ]
+    },
+    {
+      "root": ".",
+      "extraPaths": [
+        "agri_dt_backend"
+      ]
+    }
+  ]
+}

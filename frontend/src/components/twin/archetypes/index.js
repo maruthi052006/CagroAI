@@ -1,0 +1,9 @@
+export { GrassStalkArchetype } from './GrassStalkArchetype';
+export { BulbArchetype } from './BulbArchetype';
+export { RootLeafArchetype } from './RootLeafArchetype';
+export { FlowerHeadArchetype } from './FlowerHeadArchetype';
+export { BushFruitArchetype } from './BushFruitArchetype';
+export { LegumeBushArchetype } from './LegumeBushArchetype';
+export { VineArchetype } from './VineArchetype';
+export { PseudostemArchetype } from './PseudostemArchetype';
+export { FiberStalkArchetype } from './FiberStalkArchetype';

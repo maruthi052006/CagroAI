@@ -1,0 +1,9 @@
+[tool.pyright]
+venvPath = "."
+venv = ".venv"
+pythonPath = ".venv\\Scripts\\python.exe"
+extraPaths = ["agri_dt_backend", "."]
+
+[tool.pytest.ini_options]
+testpaths = ["agri_dt_backend"]
+pythonpath = ["agri_dt_backend"]

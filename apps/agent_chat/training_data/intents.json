@@ -1,0 +1,71 @@
+{
+  "CROP": [
+    {"text": "What is the current growth stage of my crop?", "intent": "GROWTH_STATUS"},
+    {"text": "How is my plant growing?", "intent": "GROWTH_STATUS"},
+    {"text": "What stage is the rice at?", "intent": "GROWTH_STATUS"},
+    {"text": "Is the vegetative phase progressing normally?", "intent": "GROWTH_STATUS"},
+    {"text": "Show me the plant development status", "intent": "GROWTH_STATUS"},
+    {"text": "What is the estimated biomass accumulation?", "intent": "BIOMASS_INFO"},
+    {"text": "How much vegetative biomass has developed?", "intent": "BIOMASS_INFO"},
+    {"text": "Canopy weight and biomass report", "intent": "BIOMASS_INFO"},
+    {"text": "Estimated kg/ha of plant matter", "intent": "BIOMASS_INFO"},
+    {"text": "How confident are you in this crop growth assessment?", "intent": "CONFIDENCE_QUERY"},
+    {"text": "What is your confidence score for the crop model?", "intent": "CONFIDENCE_QUERY"},
+    {"text": "How accurate is the vegetative thermal calculation?", "intent": "CONFIDENCE_QUERY"}
+  ],
+  "WEATHER": [
+    {"text": "What is the 7-day rainfall forecast?", "intent": "FORECAST_QUERY"},
+    {"text": "Will it rain this week?", "intent": "FORECAST_QUERY"},
+    {"text": "Show me the meteorological outlook", "intent": "FORECAST_QUERY"},
+    {"text": "Is there any rain risk or flood warning?", "intent": "RAIN_RISK"},
+    {"text": "Will heavy precipitation waterlog the field?", "intent": "RAIN_RISK"},
+    {"text": "Precipitation hazard score", "intent": "RAIN_RISK"},
+    {"text": "What is the current temperature and thermal risk?", "intent": "TEMPERATURE_QUERY"},
+    {"text": "Is there heat stress or frost danger?", "intent": "TEMPERATURE_QUERY"},
+    {"text": "How hot will it get this afternoon?", "intent": "TEMPERATURE_QUERY"}
+  ],
+  "PEST": [
+    {"text": "What is the current pest and disease risk level?", "intent": "PEST_RISK_LEVEL"},
+    {"text": "Are my plants safe from fungal pathogens?", "intent": "PEST_RISK_LEVEL"},
+    {"text": "Show the biosecurity threat score", "intent": "PEST_RISK_LEVEL"},
+    {"text": "Why is the pest risk categorized as high or medium?", "intent": "PEST_RISK_REASON"},
+    {"text": "What agro-meteorological factors are causing disease pressure?", "intent": "PEST_RISK_REASON"},
+    {"text": "Explain why humidity triggered a pest warning", "intent": "PEST_RISK_REASON"},
+    {"text": "Have pests attacked this field recently?", "intent": "PEST_RISK_HISTORY"},
+    {"text": "Historical pathogen outbreaks on this farm", "intent": "PEST_RISK_HISTORY"},
+    {"text": "Past pest incidence logs", "intent": "PEST_RISK_HISTORY"}
+  ],
+  "YIELD": [
+    {"text": "What is the expected harvest yield?", "intent": "YIELD_ESTIMATE"},
+    {"text": "How many kg/ha will my field produce?", "intent": "YIELD_ESTIMATE"},
+    {"text": "Give me the final yield forecast", "intent": "YIELD_ESTIMATE"},
+    {"text": "What is the uncertainty range between P10 and P90?", "intent": "UNCERTAINTY_RANGE"},
+    {"text": "Show me the Monte Carlo confidence bounds", "intent": "UNCERTAINTY_RANGE"},
+    {"text": "Worst case vs best case yield scenario", "intent": "UNCERTAINTY_RANGE"},
+    {"text": "How does this compare to regional benchmark yield?", "intent": "COMPARISON_QUERY"},
+    {"text": "Is this harvest higher or lower than Tamil Nadu district averages?", "intent": "COMPARISON_QUERY"},
+    {"text": "Compare my yield with historical norms", "intent": "COMPARISON_QUERY"}
+  ],
+  "EXAI": [
+    {"text": "Why did you make this recommendation?", "intent": "WHY_QUESTION"},
+    {"text": "Explain your decision step by step", "intent": "WHY_QUESTION"},
+    {"text": "Why should I delay irrigation?", "intent": "WHY_QUESTION"},
+    {"text": "Show me the cognitive reasoning trace", "intent": "WHY_QUESTION"},
+    {"text": "How did you arrive at this action plan?", "intent": "WHY_QUESTION"},
+    {"text": "How trustworthy is this recommendation?", "intent": "TRUST_QUESTION"},
+    {"text": "What is the trust score and how was it calculated?", "intent": "TRUST_QUESTION"},
+    {"text": "Can I rely on this advice?", "intent": "TRUST_QUESTION"},
+    {"text": "Were there any conflicts between the agents?", "intent": "CONFLICT_QUESTION"},
+    {"text": "Did the weather agent disagree with the crop growth agent?", "intent": "CONFLICT_QUESTION"},
+    {"text": "Show detected disputes or contradictory recommendations", "intent": "CONFLICT_QUESTION"},
+    {"text": "What is your final advice for my farm today?", "intent": "RECOMMENDATION_QUESTION"},
+    {"text": "What actionable step should I take right now?", "intent": "RECOMMENDATION_QUESTION"},
+    {"text": "Summarize the primary management recommendation", "intent": "RECOMMENDATION_QUESTION"},
+    {"text": "Explain my farm health index score", "intent": "FARM_HEALTH_QUESTION"},
+    {"text": "Why is my farm health status classified as optimal or stressed?", "intent": "FARM_HEALTH_QUESTION"},
+    {"text": "Break down the health gauge components", "intent": "FARM_HEALTH_QUESTION"},
+    {"text": "What can you do?", "intent": "GENERAL_HELP"},
+    {"text": "Help me understand this digital twin platform", "intent": "GENERAL_HELP"},
+    {"text": "What questions can I ask you?", "intent": "GENERAL_HELP"}
+  ]
+}
